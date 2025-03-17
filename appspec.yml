@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/dogbreedshow
+    destination: /opt/dogbreedshow
 hooks:
   ApplicationStart:
     - location: scripts/start_server.sh
